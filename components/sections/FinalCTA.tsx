@@ -1,6 +1,5 @@
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { StatBadge } from '@/components/ui/StatBadge'
-import { ContactForm } from '@/components/ui/ContactForm'
 
 export function FinalCTA() {
   return (
@@ -18,22 +17,17 @@ export function FinalCTA() {
 
         <a
           href="tel:+49PLACEHOLDER"
-          className="inline-block bg-gold text-white font-sans font-semibold text-lg px-10 py-4 rounded hover:bg-gold/90 transition-colors mb-16"
+          className="inline-block bg-gold text-white font-sans font-semibold text-lg px-10 py-4 rounded hover:bg-gold/90 transition-colors"
         >
           Jetzt anrufen
         </a>
 
-        <div className="border-t border-white/20 pt-10 mb-16">
+        <div className="border-t border-white/20 pt-10 mt-16">
           <div className="flex flex-col sm:flex-row gap-8 sm:gap-16">
             <StatBadge value="98 %" label="Besetzungsquote" />
             <StatBadge value="170+" label="Betreute Kanzleien" />
             <StatBadge value="Ø 28" label="Tage bis zur Besetzung" />
           </div>
-        </div>
-
-        <div className="border-t border-white/20 pt-10">
-          <p className="text-white/50 text-xs tracking-widest uppercase mb-8">Oder schreiben Sie uns</p>
-          <ContactForm />
         </div>
 
         <div className="border-t border-white/10 mt-16 pt-6 flex justify-between text-white/20 text-xs tracking-widest uppercase">
