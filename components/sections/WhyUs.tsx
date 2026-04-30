@@ -4,47 +4,47 @@ const reasons = [
   {
     num: '01',
     title: 'Spezialisierung auf die Steuerbranche.',
-    text: 'Wir verstehen, was eine Steuerfachkraft, eine Bilanzbuchhalterin, ein Steuerassistent suchen. Wir wissen, welche Argumente in der Branche ziehen — DATEV-Kompetenz, Homeoffice-Regelungen, Aufstiegspfade. Eine generische Recruiting-Agentur arbeitet mit Klempnern und Apothekern gleichzeitig. Wir nicht.',
+    text: 'Wir kennen DATEV-Kompetenz, Homeoffice-Regelungen, Aufstiegspfade. Eine generische Agentur arbeitet mit Klempnern und Apothekern. Wir nicht.',
   },
   {
     num: '02',
     title: 'Aus einer Hand — nicht aus drei.',
-    text: 'Karriereportal, Branding und Kampagnen kommen normalerweise aus drei verschiedenen Agenturen, mit drei Verträgen, drei Ansprechpartnern und ohne Abstimmung untereinander. Bei uns: ein System, ein Vertrag, eine Person, die Ihren Fall kennt.',
+    text: 'Karriereportal, Branding und Kampagnen: ein System, ein Vertrag, eine Ansprechperson.',
   },
   {
     num: '03',
     title: 'Klare Pakete, klare Preise.',
-    text: 'Sie wissen vorab, was es kostet. Keine Erfolgshonorare in Höhe eines Jahresgehalts. Keine versteckten Kosten. Wenn etwas individuell ist, sagen wir es vor dem Auftrag — nicht in der Rechnung.',
+    text: 'Sie wissen vorab, was es kostet. Keine Erfolgshonorare. Keine versteckten Kosten.',
   },
   {
     num: '04',
     title: 'Persönliche Betreuung.',
-    text: "Sie bekommen einen festen Ansprechpartner mit Direktnummer. Keine Ticketsysteme, keine Hotlines, keine wechselnden Account-Manager. Bei einer Frage rufen Sie an. Das war's.",
+    text: 'Fester Ansprechpartner mit Direktnummer. Keine Ticketsysteme, keine Hotlines.',
   },
 ]
 
 export function WhyUs() {
   return (
-    <section className="bg-offwhite px-6 md:px-16 py-20">
+    <section className="bg-white px-6 md:px-20 py-20">
       <div className="max-w-5xl mx-auto">
         <SectionLabel text="Kapitel 06" />
-        <h2 className="font-serif text-4xl md:text-5xl text-navy mb-6">
+        <h2 className="font-serif text-3xl md:text-5xl text-navy mb-3">
           Was uns von einer Standard-Agentur unterscheidet.
         </h2>
-        <div className="w-full h-px bg-navy/20 mb-12" />
+        <div className="w-12 h-[2px] bg-gold mb-10" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           {reasons.map(r => (
-            <div key={r.num} className="bg-white p-8 rounded border border-navy/10">
-              <p className="font-serif text-5xl text-navy/10 mb-4">{r.num}</p>
-              <h3 className="font-serif text-xl text-navy mb-3">{r.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{r.text}</p>
+            <div key={r.num} className="p-8 border border-navy/8 rounded-sm hover:border-gold/40 transition-colors">
+              <p className="font-serif text-[3rem] leading-none text-navy/6 mb-4 select-none">{r.num}</p>
+              <h3 className="font-serif text-lg text-navy mb-2 leading-snug">{r.title}</h3>
+              <p className="text-navy/50 text-sm leading-relaxed">{r.text}</p>
             </div>
           ))}
         </div>
 
-        <div className="border-t border-navy/20 pt-8">
-          <p className="font-serif text-2xl md:text-3xl text-navy leading-snug">
+        <div className="border-l-4 border-gold pl-6 py-1">
+          <p className="font-serif text-xl md:text-2xl text-navy leading-snug">
             Recruiting in der Steuerbranche ist{' '}
             <em className="text-gold">kein Marketing-Thema</em> — es ist eine handwerkliche
             Disziplin, die nur funktioniert, wenn jemand Ihre Branche wirklich kennt.
