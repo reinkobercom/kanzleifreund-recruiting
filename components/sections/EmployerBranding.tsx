@@ -36,9 +36,9 @@ export function EmployerBranding() {
             <div key={item.num} className="bg-white p-7 rounded-sm">
               <p className="font-serif text-[3.5rem] leading-none text-navy/8 mb-4 select-none">{item.num}</p>
               <h3 className="font-serif text-lg text-navy mb-3 leading-snug">{item.title}</h3>
-              <p className="text-navy/50 text-sm leading-relaxed mb-4">{item.text}</p>
+              <p className="text-navy/65 text-base leading-relaxed mb-4">{item.text}</p>
               <div className="pt-3 border-t border-navy/8">
-                <p className="text-[10px] text-navy/35 leading-relaxed">{item.einsatz}</p>
+                <p className="text-[10px] text-navy/50 leading-relaxed">{item.einsatz}</p>
               </div>
             </div>
           ))}
@@ -47,13 +47,13 @@ export function EmployerBranding() {
         <div className="bg-navy rounded-sm p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div>
             <p className="text-[10px] tracking-[0.2em] uppercase text-gold mb-2">Komplettes Branding-Paket · Einmalig</p>
-            <p className="text-white/70 text-sm max-w-md">
+            <p className="text-white/80 text-base max-w-md">
               Vor-Ort-Drehtag: Imagefilm, Fotoreportage, 3 – 5 Mitarbeiterinterviews — produziert, geschnitten, einsatzbereit.
             </p>
           </div>
           <div className="shrink-0">
             <p className="font-serif text-5xl text-gold leading-none">5.000 €</p>
-            <p className="text-white/35 text-xs mt-1">einmalig · zzgl. MwSt.</p>
+            <p className="text-white/55 text-xs mt-1">einmalig · zzgl. MwSt.</p>
           </div>
         </div>
       </div>

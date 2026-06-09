@@ -17,7 +17,7 @@ export function CareerPortal() {
         <SectionLabel text="Säule 01 · Karriereportal" />
         <h2 className="font-serif text-3xl md:text-5xl text-navy mb-3">
           Ihre eigene Karriereseite.<br />
-          <span className="text-navy/50">Nicht ein Profil auf einem Portal.</span>
+          <span className="text-navy/70">Nicht ein Profil auf einem Portal.</span>
         </h2>
         <div className="w-12 h-[2px] bg-gold mb-10" />
 
@@ -34,12 +34,12 @@ export function CareerPortal() {
             </p>
           </div>
           <div>
-            <p className="text-[10px] tracking-[0.2em] uppercase text-navy/40 mb-5">Was enthalten ist</p>
+            <p className="text-[10px] tracking-[0.2em] uppercase text-navy/55 mb-5">Was enthalten ist</p>
             <ul className="space-y-3">
               {features.map((f, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="text-gold text-sm mt-0.5 shrink-0 font-bold">—</span>
-                  <span className="text-navy/65 text-sm leading-relaxed">{f}</span>
+                  <span className="text-navy/70 text-base leading-relaxed">{f}</span>
                 </li>
               ))}
             </ul>
@@ -53,8 +53,8 @@ export function CareerPortal() {
             { label: 'Skalierbar', text: 'Von 1 Stelle bis 10+ Ausschreibungen an mehreren Standorten.' },
           ].map((b, i) => (
             <div key={b.label} className={`p-6 ${i < 2 ? 'border-b md:border-b-0 md:border-r border-navy/8' : ''}`}>
-              <p className="text-[10px] tracking-[0.2em] uppercase text-navy/40 mb-2">{b.label}</p>
-              <p className="text-navy/65 text-sm leading-relaxed">{b.text}</p>
+              <p className="text-[10px] tracking-[0.2em] uppercase text-navy/55 mb-2">{b.label}</p>
+              <p className="text-navy/70 text-base leading-relaxed">{b.text}</p>
             </div>
           ))}
         </div>

@@ -11,17 +11,10 @@ export function FinalCTA() {
           30-minütiges Gespräch{' '}
           <em className="text-gold">führen.</em>
         </h2>
-        <p className="text-white/50 text-base max-w-xl mb-12 leading-relaxed">
+        <p className="text-white/75 text-base max-w-xl mb-12 leading-relaxed">
           Am Ende wissen Sie, ob unsere Lösung passt und welche Säulen zuerst sinnvoll sind.
           Unverbindlich, kostenlos, ohne Verkaufsdruck.
         </p>
-
-        <a
-          href="tel:+49PLACEHOLDER"
-          className="inline-flex items-center gap-3 bg-gold text-white font-sans font-semibold text-lg px-10 py-5 rounded hover:bg-amber-600 transition-colors mb-20"
-        >
-          Jetzt anrufen
-        </a>
 
         <div className="border-t border-white/10 pt-10">
           <div className="flex flex-wrap gap-10 md:gap-20">
@@ -31,7 +24,7 @@ export function FinalCTA() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 mt-16 pt-6 flex justify-between text-white/20 text-[10px] tracking-[0.2em] uppercase">
+        <div className="border-t border-white/10 mt-16 pt-6 flex justify-between text-white/35 text-[10px] tracking-[0.2em] uppercase">
           <span>Recruiting für Steuerkanzleien</span>
           <span>Kanzleifreund</span>
         </div>

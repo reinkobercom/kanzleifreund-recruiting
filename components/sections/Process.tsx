@@ -18,7 +18,7 @@ export function Process() {
           Vom ersten Gespräch zur ersten Einstellung.
         </h2>
         <div className="w-12 h-[2px] bg-gold mb-3" />
-        <p className="text-navy/50 text-sm mb-12">Sechs Schritte. Drei bis fünf Wochen vom Start bis zur laufenden Kampagne.</p>
+        <p className="text-navy/65 text-sm mb-12">Sechs Schritte. Drei bis fünf Wochen vom Start bis zur laufenden Kampagne.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-0">
           {steps.map((s, i) => (
@@ -26,7 +26,7 @@ export function Process() {
               <span className="font-serif italic text-gold text-2xl w-8 shrink-0 mt-0.5">{s.num}</span>
               <div>
                 <h3 className="font-serif text-base text-navy mb-1">{s.title}</h3>
-                <p className="text-navy/50 text-sm leading-relaxed">{s.text}</p>
+                <p className="text-navy/65 text-base leading-relaxed">{s.text}</p>
               </div>
             </div>
           ))}

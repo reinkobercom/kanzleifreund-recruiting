@@ -21,9 +21,9 @@ export function WhyFails() {
           <table className="w-full min-w-[600px]">
             <thead>
               <tr className="border-b border-navy/10">
-                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/40 py-3 pr-8 font-normal">Kanal</th>
-                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/40 py-3 pr-8 font-normal">Was passiert</th>
-                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/40 py-3 font-normal">Was es kostet</th>
+                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/55 py-3 pr-8 font-normal">Kanal</th>
+                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/55 py-3 pr-8 font-normal">Was passiert</th>
+                <th className="text-left text-[10px] tracking-[0.2em] uppercase text-navy/55 py-3 font-normal">Was es kostet</th>
               </tr>
             </thead>
             <tbody>
@@ -31,10 +31,10 @@ export function WhyFails() {
                 <tr key={i} className="border-b border-navy/5">
                   <td className="py-5 pr-8 align-top w-[28%]">
                     <p className="font-sans font-semibold text-navy text-sm">{c.kanal}</p>
-                    <p className="text-navy/35 text-xs mt-0.5">{c.sub}</p>
+                    <p className="text-navy/50 text-xs mt-0.5">{c.sub}</p>
                   </td>
-                  <td className="py-5 pr-8 align-top text-navy/55 text-sm leading-relaxed w-[40%]">{c.was}</td>
-                  <td className="py-5 align-top text-navy/55 text-sm leading-relaxed">{c.kosten}</td>
+                  <td className="py-5 pr-8 align-top text-navy/65 text-base leading-relaxed w-[40%]">{c.was}</td>
+                  <td className="py-5 align-top text-navy/65 text-base leading-relaxed">{c.kosten}</td>
                 </tr>
               ))}
             </tbody>

@@ -34,12 +34,12 @@ export function ThreePillars() {
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-gold" />
               <p className="font-serif italic text-gold text-2xl mb-4 pl-4">Säule {p.num}</p>
               <h3 className="font-serif text-xl text-navy mb-3 pl-4 leading-snug">{p.title}</h3>
-              <p className="text-navy/50 text-sm leading-relaxed pl-4">{p.text}</p>
+              <p className="text-navy/65 text-base leading-relaxed pl-4">{p.text}</p>
             </div>
           ))}
         </div>
 
-        <p className="text-navy/40 text-xs leading-relaxed border-t border-navy/10 pt-5">
+        <p className="text-navy/55 text-xs leading-relaxed border-t border-navy/10 pt-5">
           Einzeln buchbar oder im Verbund. Empfehlung: mindestens Säule i + iii — ein Portal ohne Traffic bringt keine Bewerbungen, eine Kampagne ohne Landingpage verbrennt Budget.
         </p>
       </div>

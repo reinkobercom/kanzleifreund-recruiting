@@ -36,7 +36,7 @@ export function Problem() {
             <div key={o.num} className="bg-white p-7 rounded-sm border-t-2 border-gold">
               <p className="text-gold text-[10px] tracking-[0.2em] uppercase font-sans mb-3">Beobachtung {o.num}</p>
               <h3 className="font-serif text-lg text-navy mb-3 leading-snug">{o.title}</h3>
-              <p className="text-navy/50 text-sm leading-relaxed">{o.text}</p>
+              <p className="text-navy/65 text-base leading-relaxed">{o.text}</p>
             </div>
           ))}
         </div>
@@ -46,7 +46,7 @@ export function Problem() {
           <div className="h-px md:h-16 w-full md:w-px bg-white/20 shrink-0" />
           <div>
             <p className="text-gold text-[10px] tracking-[0.2em] uppercase mb-2">Ausgangslage</p>
-            <p className="text-white/80 text-sm leading-relaxed">
+            <p className="text-white/85 text-base leading-relaxed">
               der offenen Stellen in deutschen Steuerkanzleien bleiben länger als drei Monate unbesetzt.
               72 % aller Kanzleien geben an, derzeit keine passenden Mitarbeiter zu finden.
             </p>

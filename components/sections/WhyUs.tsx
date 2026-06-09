@@ -36,9 +36,9 @@ export function WhyUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           {reasons.map(r => (
             <div key={r.num} className="p-8 border border-navy/8 rounded-sm hover:border-gold/40 transition-colors">
-              <p className="font-serif text-[3rem] leading-none text-navy/6 mb-4 select-none">{r.num}</p>
+              <p className="font-serif text-[3rem] leading-none text-navy/10 mb-4 select-none">{r.num}</p>
               <h3 className="font-serif text-lg text-navy mb-2 leading-snug">{r.title}</h3>
-              <p className="text-navy/50 text-sm leading-relaxed">{r.text}</p>
+              <p className="text-navy/65 text-base leading-relaxed">{r.text}</p>
             </div>
           ))}
         </div>
